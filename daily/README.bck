@@ -1,0 +1,306 @@
+  
+  See http://sec.noaa.gov/Data/ for tables of all online data 
+  at SEC, including links to non-SEC sources for older data.
+
+======================================================================== 
+December 20, 2001
+                   ACE EPAM P1 Channel Data Suspect
+                   
+Data from the ACE EPAM lowest energy channel (P1) 47-65 keV are suspect 
+since late November, following the large proton event that ended on the 
+24th. The cause and possible cure are being investigated by the instrument 
+team and SEC. Look for further messages here as more information becomes 
+available.
+
+======================================================================== 
+November 26, 2001
+                 ACE SOLAR WIND DATA CONTAMINATION ENDS
+
+    The solar energetic proton event that contaminated the ACE SWEPAM 
+    instrument data resulting in incorrect solar wind density, speed, and 
+    temperature values being reported by SEC on November 23 and 24
+    ended November 24 about 1800 UTC. 
+
+    To review this event see 
+    http://www.sec.noaa.gov/ftpmenu/plots/proton.html
+
+======================================================================== 
+November 7, 2001
+                ACE SOLAR WIND DATA CONTAMINATION ENDS
+
+    A solar energetic proton event contaminated the ACE SWEPAM instrument
+    data resulting in incorrect solar wind density, speed, and 
+    temperature values being reported by SEC on November 5 and 6. 
+    The contamination ended November 7 about 0300 UTC. 
+    To monitor this event see 
+    http://sec.noaa.gov/rt_plots/pro_3d.html
+
+======================================================================== 
+1545 UTC Sept 27, 2001
+                     ACE DATA RETURNS TO NORMINAL
+
+    A solar energetic proton event which was contaminating the ACE 
+    SWEPAM instrument has subsided. ACE solar wind density, speed, 
+    and temperature values reported by SEC are now correct. The values
+    were incorrect from 1602 UTC on 24 Sept until 0945 UTC on Sept 27th. 
+    The event can be seen at 
+       http://www.sec.noaa.gov/ftpdir/plots/proton/20010926_proton.gif
+    and
+       http://www.sec.noaa.gov/ftpdir/plots/proton/20010927_proton.gif
+
+======================================================================== 
+  
+  See http://sec.noaa.gov/Data/ for tables of all online data 
+  at SEC, including links to non-SEC sources for older data.
+
+======================================================================== 
+July 27, 2001
+             ACE SPACECRAFT MANEUVER COMPLETED
+             
+   NASA performed a Z-axes maneuver, to keep the Spacecraft 
+   in L1 orbit. ACE Real-Time Solar Wind data was unavailable 
+   from 1534 UTC July 23th until 1825 UTC July 26, 2001.
+
+========================================================================
+July 26, 2000
+            ACE EPAM Data Lists Header Line Changes
+                    
+The ACE EPAM 5-min data lists, had incorrect Differential 
+Proton Flux ranges. The header lines were changed beginning 
+with the 26 July 2000 file.
+
+CORRECTED:                        
+#                 -- Differential Flux --------------------------
+# UT Date   Time  ------------------ Protons keV ----------------
+# YR MO DA  HHMM  47-65    112-187   310-580   761-1220 1060-1910
+                        
+INCORRECT:                        
+#                 -- Differential Flux --------------------------
+# UT Date   Time  ------------------ Protons keV ----------------
+# YR MO DA  HHMM  56-78    130-214   337-594   761-1220 1073-1802
+
+========================================================================
+July 28, 1998
+
+   The EPAM 761-1220 MeV Proton algorithm was adjusted at 7/28 1600UT.
+   There was factor of 3 decrease which matches expected values.
+
+========================================================================
+STATUS REPORTS
+
+
+4/3/98
+               Update on quality of ACE RTSW data sets
+
+MAG:  All data nominal
+
+SWEPAM:  All data nominal.  When the velocity of the solar wind falls to
+low values the current algorithm will often set a flag indicating a
+problem exists.  SEC flags the data in the data base and does not plot
+the data on the web site.  The end result is a number of missing data at
+the one minute cadence.
+ 
+EPAM:  All differential flux channels nominal, except for W1.  This
+channel is impacted by above normal temperatures on ACE.  APL is looking
+at this issue.  The only impact is the anisotropy index is not valid.
+The energy range of this channel is covered by the other existing
+channels.
+
+SIS:  Both integral channels nominal.  Integral flux is at background
+until a large event is detected
+
+
+Update on tracking:
+
+RAL, NASA, and AFSCN are fully operational.  CRL is down for antenna
+repair and is expected up in two months.  AFSCN has added extra tracking
+coverage during the time period normally covered by CRL.  Occasionally
+short dropouts occur during a tracking pass, usually due to data
+transmission problems.  Bad data records are received during some
+tracking passes.  Software eliminates most of the problem data, but not
+all problem data.  
+
+=========================================================================
+
+2/9/98 - A software solution to the SWEPAM instrument problem was installed on
+         2/5. Density, Bulk Speed and Ion Temperature data now appear nominal.
+         
+2/2/98 - The Spacecraft Location files will not be available until March.
+
+2/2/98 - The Magnetometer data is still in spacecraft coordinates (RTN). 
+         Will not be switched to GSM coordinates in March. 
+
+2/2/98 - Lists of hourly average will not be available until March.
+
+2/2/98 - The limits shown below for Mag component magnitude, SWEPAM bulk speed, 
+         SWEPAM X vector velocity, and Xgse location were corrected 2/2/98.
+
+1/21/98 - Operational ACE data lists began running. 
+
+
+Your comments and suggestions are welcome. 
+Thank you,
+
+ Viola Raben
+ vraben@sec.noaa.gov
+********************************************************************************
+********************************************************************************
+
+Real-Time Solar Wind (RTSW) data from the Advanced Composition Explorer (ACE) 
+spacecraft are made available by the Space Envirnoment Center (SEC) as updating 
+data lists and plots. The plots are available through the SEC Web site at URL: 
+http://sec.noaa.gov. Follow the link to "Real-time Solar Wind Data". 
+
+--- ACE RTSW Instruments                                Average Intervals
+
+MAG - Magnetometer                                       1-min and 1-hour
+SWEPAM - Solar Wind Electron Proton Alpha Monitor        1-min and 1-hour
+EPAM - Electron Proton and Alpha Monitor                 5-min and 1-hour
+SIS - Solar Isotope Spectrometer                         5-min and 1-hour
+
+All data lists are ASCII text files with a standard SEC data list format. There 
+are two lists for each of the four ACE instruments; a 2-hour list and a daily 
+list. The 2-hour lists contain the most recent 2 hours of data from the 
+instrument and are updated in near-real-time. The Magnetometer and SWEPAM data 
+is available as 1-min averages and these lists are updated once a minute. The 
+EPAM and SIS data is available as 5-minute averages and the lists are updated 
+once every 5 minutes. The Daily lists for all instruments are updated once a 
+hour beginning at 0101UT daily. 
+
+--- Filenaming Conventions
+
+The filenames for the 2 hour lists do not change. Users retrieving data 
+frequently usually ftp these short files because the filenames do not change.
+
+               ace_mag_1m.txt
+               ace_swepam_1m.txt
+               ace_epam_5m.txt
+               ace_sis_5m.txt
+
+The daily lists have the UT date prefixed to the basic filename.
+For example 19971201_ace_mag_1m.txt is the filename for Mag data on Dec 1, 1997.
+
+               19971201_ace_mag_1m.txt
+               19971201_ace_swepam_1m.txt
+               19971201_ace_epam_5m.txt
+               19971201_ace_sis_5m.txt
+
+--- Retention
+
+Daily files are retained for 10 days.
+
+
+--- File format
+
+   o The first line begins with :Product: followed by the file name.
+   o The second line begins with :Issued: followed by the date/time the file
+     was created.
+   o The next lines begin with # and contains header information about the list.
+     The number of header lines is NOT guarenteed to be fixed.
+   o The lines following the header (#) lines are data records, there are no 
+     header lines after the data begins.
+   o The file ends with the last data record.
+   o There is a data record for each time interval. For example, a completed 
+     daily 5-min file contains 288 data records-- one for each 5 minute interval
+     in the day. When no data are available there is a record containing missing 
+     data values for that interval.
+   o Fields within each record are delimitated by white space. Records are 
+     written with a formatted write statement so the field widths do not change.
+     However, SEC reserves the right the change the format as needed.
+
+--- Valid Data
+
+     The header lines on each list identify the data values, units, and missing
+     data values. The range of valid values are shown below:
+
+
+Date/time fields for all data lists
+
+                                              Valid Range
+Description                   Format          min / max
+--------------------------------------------------------------
+UT Year                      Integer            1998 -
+UT Month                     Integer            1 / 12
+UT Day                       Integer            1 / 31
+UT Time - Time at the beginning of the averaging interval
+      HH - Hour              Integer           00 / 23
+      MM - Minutes           Integer           00 / 59
+Modified UT Julian Day       Integer        1/1/98 was 50814
+Seconds of UT Day            Integer            0 / 86340
+
+Status Flags
+
+Status fields for all instruments are a one digit integer from 0 through 9 
+where 0 = nominal data, 9 = no data, and 1-8 indicate bad data. 
+More specifically:
+     0 = Data values a nominal
+     1 = SWEPAM data flag non-zero
+     2 = Spacecraft attitude may be in error (following a maneuver)
+     3 = SWEPAM mode is bad
+     4 = The magnetometer flip bit is on, data are not processed
+     5 = The magnetometer is in calibration mode, data are not processed during  
+         calibration
+     6 = Some values in the data record were out of their valid range, unable to
+         to process the data
+     7 = Some values in the data record were missing, unable to process the data
+     8 = The data record was incomplete, unable to process the data
+     9 = No data were received at SEC, usually because no site was tracking ACE
+
+
+--------------------------------------------------------------------------------
+
+MAG - Magnetometer
+Description                             Format       Units          min/max
+
+IMF X-component in GSM coordinates       Float         nT        -200.0 / 200.0
+IMF Y-component in GSM coordinates       Float         nT        -200.0 / 200.0
+IMF Z-component in GSM coordinates       Float         nT        -200.0 / 200.0
+IMF component magnitude                  Float         nT           0.0 / 200.0
+IMF latitude in GSM coordinates          Float       degrees      -90.0 / 90.0
+IMF longitude in GSM coordinates         Float       degrees        0.0 / 360.0
+
+--------------------------------------------------------------------------------
+
+SWEPAM - Solar Wind Electron Proton Alpha Monitor
+Description                                   Format    Units         min/max  
+
+Solar wind proton density                      Float     p/cc       0.0 /  200.0
+Solar wind bulk speed                          Float     km/s     200.0 / 2000.0
+Solar wind ion temperature                     Float  degrees K  1.00E4 / 1.00E7
+Solar wind vector velocity in GSE x-direction  Float     km/s   -2000.0 / -200.0
+Solar wind vector velocity in GSE y-direction  Float     km/s    -200.0 /  200.0
+Solar wind vector velocity in GSE Z-direction  Float     km/s    -200.0 /  200.0
+
+--------------------------------------------------------------------------------
+
+EPAM - Electron Proton and Alpha Monitor
+Description                             Format       Units             min/max  
+
+Differential electron flux 38-53 keV    Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E8
+Differential electron flux 175-315 keV  Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E7
+Differential proton flux 47-65 keV      Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E8
+Differential proton flux 112-187 keV    Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E7
+Differential proton flux 310-580 keV    Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E7
+Differential proton flux 1060-1910 keV  Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E6
+W1 (480-966 keV proton flux)            Float  p/(cm2-sec-ster-MeV)  0.00 / 1.0E7
+Anisotropy Index                        Float                         0.0 / 2.0
+
+--------------------------------------------------------------------------------
+
+SIS - Solar Isotope Spectrometer Integral Flux of High-energy Solar Protons
+Description                             Format       Units             min/max
+
+Integral proton flux at >10 MeV         Float  p/(cm2-sec-ster)     0.00 / 1.00E5
+Integral proton flux at >30 MeV         Float  p/(cm2-sec-ster)    >0.00 / 1.00E5
+
+--------------------------------------------------------------------------------
+
+ACE Spacecraft Location
+Description                                   Format      Units       min/max
+
+X position in GSE coordinate (Earth radii)     Float        Re       0.0 / 300.0
+Y position in GSE coordinate (Earth radii)     Float        Re    -200.0 / 200.0
+Z position in GSE coordinate (Earth radii)     Float        Re    -200.0 / 200.0
+
+
+
